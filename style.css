@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #c3cbdc; */
+    background-image: url("wave.svg");
+    /* background-image: linear-gradient(147deg, #c3cbdc 0%, #edf1f4 74%); */
+    background-size: cover;
+    background-position: 0%;
+
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+input {
+    margin: 0px 4px;
+}
+
+
+
+li {
+    cursor: pointer;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    list-style-type: none;
+    margin: 10px 0px;
+    font-size: 1.2rem;
+    text-align: left;
+    transition: 0.5s;
+
+}
+
+label {
+    cursor: pointer;
+}
+
+.question {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.5s;
+    font-size: 1.3rem;
+    margin-top: 20px 0px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+button {
+    transition: 0.3s;
+    background-color: rgb(0 68 157);
+    width: 100%;
+    border: none;
+    height: 55px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+    bottom: -18px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(44, 7, 255);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 72%;
+}
+
+.result {
+
+    background-color: white;
+    width: 300px;
+    height: 400px;
+}
+
+.result {
+    transition: 0.3s;
+    display: none;
+    justify-content: center;
+    font-family: cursive;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+.result p {
+    padding: 3px 0px;
+}
+
+.result h3 {
+    padding: 10px 0px;
+}
+
+.score {
+    text-align: center;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.score h4 {
+    padding: 5px 0px;
+}
+
+hr {
+    margin: 10px 0px;
+    border-color: #c3cbdc;
+}
+
+.data h3 {
+    background-color: rgb(0 68 157);
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+}

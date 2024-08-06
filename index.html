@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Quiz-App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main id="main">
+
+        <div class="container">
+
+            <div class="question">
+                <h4 id="question">Who is the best cricketer?</h4>
+            </div>
+            <div class="options">
+                <ul>
+                    <li> <input type="radio" name="answer" id="a"><label for="a" class="a">Nothing is best</label></li>
+                    <li> <input type="radio" name="answer" id="b"><label for="b" class="b">Nothing is best </label></li>
+                    <li> <input type="radio" name="answer" id="c"><label for="c" class="c">Nothing is best</label></li>
+                    <li> <input type="radio" name="answer" id="d"><label for="d" class="d">Nothing is best </label></li>
+                </ul>
+            </div>
+        </div>
+        <button id="btn">Submit</button>
+    </main>
+
+    <div class="result">
+        <div class="data">
+            <h3>Results</h3>
+            <hr>
+            <p id="total_ques">Total Questions: 10</p>
+            <p id="right_ans">Right Answers: 5</p>
+            <p id="wrong_ans">Wrong Answers: 10 </p>
+            <div class="score">
+                <h4><u>Score</u></h4>
+                <span id="score">1/10</span>
+            </div>
+            <button id="replay">Replay</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
